@@ -8,4 +8,6 @@ import luzielma.dio.projeto.Java.modeloAp.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long>{
 
+    boolean existsByAccountNumber(String accountNumber);
+
 }
