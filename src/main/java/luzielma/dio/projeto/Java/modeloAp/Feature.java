@@ -1,5 +1,8 @@
 package luzielma.dio.projeto.Java.modeloAp;
 
-public class Feature {
+import jakarta.persistence.Entity;
+
+@Entity(name = "tab_feature")
+public class Feature extends FeNews {
     
 }

@@ -1,5 +1,12 @@
 package luzielma.dio.projeto.Java.modeloAp;
 
-public class News {
-    
+import jakarta.persistence.Entity;
+
+@Entity(name = "tb_news")
+public class News extends FeNews{
+
+
 }
+
+
+
