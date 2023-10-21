@@ -1,6 +1,8 @@
 # Bootcamp-Santander
 Java RESTful API criada para a Santander Dev Week. 
 ## Diagrama de classes
+
+```mermaid
 classDiagram
   class User {
     - name: string
@@ -37,5 +39,6 @@ classDiagram
   User "1" -- "1" Card : has
   User "0..*" -- "0..*" News : has
 ```
+
 #Link do Figma
 https://www.figma.com/file/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?type=design&node-id=1421-432&mode=design&t=vpzOifpdCHxFXPM7-0
