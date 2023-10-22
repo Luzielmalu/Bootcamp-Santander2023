@@ -24,6 +24,11 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
+tasks.jar{
+	manifest{
+		atributes["Main-Class"] = "src/main/java/luzielma/dio/projeto/Java/Application.java"
+	}
+}
 
 tasks.named('test') {
 	useJUnitPlatform()
